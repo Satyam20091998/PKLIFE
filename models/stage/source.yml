@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: new_src
+    database: PL_DB
+    schema: SOURCE
+    tables:
+      - name: raw_account
+      - name: table1
+ 

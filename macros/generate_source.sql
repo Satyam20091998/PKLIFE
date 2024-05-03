@@ -1,4 +1,4 @@
-{% macro generate_source(database_name, schema_name, source_name) %}
+{% macro generate_source(database_name, schema_name) %}
 
 {% set sql %}
     with "columns" as (
