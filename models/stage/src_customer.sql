@@ -1,0 +1,1 @@
+select * from {{source('new_src','raw_account')}}
