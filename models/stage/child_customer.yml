@@ -4,11 +4,13 @@ models:
   - name: child_customer
     columns:
       - name: ID
-        data_type: int
+        data_type: number
         description: "id of customer"
+
       - name: NAME
-        data_type: text
+        data_type: varchar
         description: 'name of customer'
+        
       - name: SYSTEMMODSTAMP
         data_type: date
         description: 'date'

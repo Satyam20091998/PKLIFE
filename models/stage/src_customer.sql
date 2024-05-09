@@ -1,1 +1,1 @@
-select * from {{source('new_src','raw_account')}}
+select ID,NAME, SYSTEMMODSTAMP from {{source('new_src','raw_account')}}

@@ -1,1 +1,1 @@
-select * from {{ref("src_customer")}}
+select ID,NAME, SYSTEMMODSTAMP from {{ref("src_customer")}}

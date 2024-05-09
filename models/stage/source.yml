@@ -8,13 +8,11 @@ sources:
       - name: raw_account
         columns:
           - name: ID
-            data_type: int
-            description: "id of customer"
+            data_type: number
           - name: NAME
-            data_type: text
-            description: 'name of customer'
+            data_type: varchar
           - name: SYSTEMMODSTAMP
             data_type: date
-            description: 'date'
+
 
  
