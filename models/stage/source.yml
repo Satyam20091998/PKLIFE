@@ -6,5 +6,15 @@ sources:
     schema: SOURCE
     tables:
       - name: raw_account
-      - name: table1
+        columns:
+          - name: ID
+            data_type: int
+            description: "id of customer"
+          - name: NAME
+            data_type: text
+            description: 'name of customer'
+          - name: SYSTEMMODSTAMP
+            data_type: date
+            description: 'date'
+
  

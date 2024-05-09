@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: src_customer
+    columns:
+      - name: ID
+        data_type: int
+        description: "id of customer"
+      - name: NAME
+        data_type: text
+        description: 'name of customer'
+      - name: SYSTEMMODSTAMP
+        data_type: date
+        description: 'date'
